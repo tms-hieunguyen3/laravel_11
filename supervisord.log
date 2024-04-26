@@ -2235,3 +2235,98 @@
 2024-04-19 07:28:28,066 WARN received SIGQUIT indicating exit request
 2024-04-19 07:28:28,068 INFO waiting for laravel_schedule_00 to die
 2024-04-19 07:28:29,072 WARN stopped: laravel_schedule_00 (terminated by SIGTERM)
+2024-04-25 09:09:49,480 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 09:09:49,505 INFO supervisord started with pid 1
+2024-04-25 09:09:50,508 INFO spawned: 'laravel_queue_00' with pid 7
+2024-04-25 09:09:50,518 INFO spawned: 'laravel_queue_01' with pid 8
+2024-04-25 09:09:50,537 INFO spawned: 'laravel_queue_02' with pid 9
+2024-04-25 09:09:50,544 INFO spawned: 'laravel_queue_03' with pid 10
+2024-04-25 09:09:50,553 INFO spawned: 'laravel_schedule_00' with pid 11
+2024-04-25 09:09:50,586 WARN exited: laravel_queue_00 (exit status 255; not expected)
+2024-04-25 09:09:50,598 WARN exited: laravel_queue_01 (exit status 255; not expected)
+2024-04-25 09:09:50,602 WARN exited: laravel_queue_02 (exit status 255; not expected)
+2024-04-25 09:09:50,611 WARN exited: laravel_queue_03 (exit status 255; not expected)
+2024-04-25 09:09:50,613 WARN exited: laravel_schedule_00 (exit status 255; not expected)
+2024-04-25 09:09:51,638 INFO spawned: 'laravel_queue_00' with pid 12
+2024-04-25 09:09:51,711 INFO spawned: 'laravel_queue_01' with pid 13
+2024-04-25 09:09:51,748 INFO spawned: 'laravel_queue_02' with pid 14
+2024-04-25 09:09:51,756 INFO spawned: 'laravel_queue_03' with pid 15
+2024-04-25 09:09:51,761 INFO spawned: 'laravel_schedule_00' with pid 16
+2024-04-25 09:09:51,796 WARN exited: laravel_queue_00 (exit status 255; not expected)
+2024-04-25 09:09:51,862 WARN exited: laravel_queue_01 (exit status 255; not expected)
+2024-04-25 09:09:51,887 WARN exited: laravel_queue_02 (exit status 255; not expected)
+2024-04-25 09:09:51,889 WARN exited: laravel_schedule_00 (exit status 255; not expected)
+2024-04-25 09:09:51,906 WARN exited: laravel_queue_03 (exit status 255; not expected)
+2024-04-25 09:09:53,912 INFO spawned: 'laravel_queue_00' with pid 17
+2024-04-25 09:09:53,915 INFO spawned: 'laravel_queue_01' with pid 18
+2024-04-25 09:09:53,918 INFO spawned: 'laravel_queue_02' with pid 19
+2024-04-25 09:09:53,921 INFO spawned: 'laravel_queue_03' with pid 20
+2024-04-25 09:09:53,924 INFO spawned: 'laravel_schedule_00' with pid 21
+2024-04-25 09:09:53,956 WARN exited: laravel_queue_01 (exit status 255; not expected)
+2024-04-25 09:09:53,962 WARN exited: laravel_queue_00 (exit status 255; not expected)
+2024-04-25 09:09:53,967 WARN exited: laravel_queue_03 (exit status 255; not expected)
+2024-04-25 09:09:53,970 WARN exited: laravel_queue_02 (exit status 255; not expected)
+2024-04-25 09:09:53,972 WARN exited: laravel_schedule_00 (exit status 255; not expected)
+2024-04-25 09:09:56,978 INFO spawned: 'laravel_queue_00' with pid 22
+2024-04-25 09:09:56,980 INFO spawned: 'laravel_queue_01' with pid 23
+2024-04-25 09:09:56,983 INFO spawned: 'laravel_queue_02' with pid 24
+2024-04-25 09:09:56,985 INFO spawned: 'laravel_queue_03' with pid 25
+2024-04-25 09:09:56,988 INFO spawned: 'laravel_schedule_00' with pid 26
+2024-04-25 09:09:57,009 WARN exited: laravel_queue_00 (exit status 255; not expected)
+2024-04-25 09:09:57,010 INFO gave up: laravel_queue_00 entered FATAL state, too many start retries too quickly
+2024-04-25 09:09:57,011 WARN exited: laravel_queue_01 (exit status 255; not expected)
+2024-04-25 09:09:57,011 INFO gave up: laravel_queue_01 entered FATAL state, too many start retries too quickly
+2024-04-25 09:09:57,013 WARN exited: laravel_queue_02 (exit status 255; not expected)
+2024-04-25 09:09:57,018 INFO gave up: laravel_queue_02 entered FATAL state, too many start retries too quickly
+2024-04-25 09:09:57,022 WARN exited: laravel_queue_03 (exit status 255; not expected)
+2024-04-25 09:09:57,025 WARN exited: laravel_schedule_00 (exit status 255; not expected)
+2024-04-25 09:09:58,031 INFO gave up: laravel_queue_03 entered FATAL state, too many start retries too quickly
+2024-04-25 09:09:58,033 INFO gave up: laravel_schedule_00 entered FATAL state, too many start retries too quickly
+2024-04-25 09:11:37,661 WARN received SIGQUIT indicating exit request
+2024-04-26 01:56:03,681 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-26 01:56:03,687 INFO supervisord started with pid 1
+2024-04-26 01:56:04,693 INFO spawned: 'laravel_queue_00' with pid 7
+2024-04-26 01:56:04,697 INFO spawned: 'laravel_queue_01' with pid 8
+2024-04-26 01:56:04,701 INFO spawned: 'laravel_queue_02' with pid 9
+2024-04-26 01:56:04,703 INFO spawned: 'laravel_queue_03' with pid 10
+2024-04-26 01:56:04,708 INFO spawned: 'laravel_schedule_00' with pid 11
+2024-04-26 01:56:04,922 WARN exited: laravel_queue_00 (exit status 255; not expected)
+2024-04-26 01:56:04,922 WARN exited: laravel_queue_01 (exit status 255; not expected)
+2024-04-26 01:56:04,923 WARN exited: laravel_queue_02 (exit status 255; not expected)
+2024-04-26 01:56:04,923 WARN exited: laravel_queue_03 (exit status 255; not expected)
+2024-04-26 01:56:04,924 WARN exited: laravel_schedule_00 (exit status 255; not expected)
+2024-04-26 01:56:05,929 INFO spawned: 'laravel_queue_00' with pid 12
+2024-04-26 01:56:05,933 INFO spawned: 'laravel_queue_01' with pid 13
+2024-04-26 01:56:05,936 INFO spawned: 'laravel_queue_02' with pid 14
+2024-04-26 01:56:05,940 INFO spawned: 'laravel_queue_03' with pid 15
+2024-04-26 01:56:05,945 INFO spawned: 'laravel_schedule_00' with pid 16
+2024-04-26 01:56:05,970 WARN exited: laravel_queue_00 (exit status 255; not expected)
+2024-04-26 01:56:05,973 WARN exited: laravel_queue_01 (exit status 255; not expected)
+2024-04-26 01:56:05,974 WARN exited: laravel_queue_02 (exit status 255; not expected)
+2024-04-26 01:56:05,980 WARN exited: laravel_queue_03 (exit status 255; not expected)
+2024-04-26 01:56:05,984 WARN exited: laravel_schedule_00 (exit status 255; not expected)
+2024-04-26 01:56:07,992 INFO spawned: 'laravel_queue_00' with pid 17
+2024-04-26 01:56:08,001 INFO spawned: 'laravel_queue_01' with pid 18
+2024-04-26 01:56:08,007 INFO spawned: 'laravel_queue_02' with pid 19
+2024-04-26 01:56:08,014 INFO spawned: 'laravel_queue_03' with pid 20
+2024-04-26 01:56:08,020 INFO spawned: 'laravel_schedule_00' with pid 21
+2024-04-26 01:56:08,051 WARN exited: laravel_queue_00 (exit status 255; not expected)
+2024-04-26 01:56:08,054 WARN exited: laravel_queue_01 (exit status 255; not expected)
+2024-04-26 01:56:08,055 WARN exited: laravel_queue_02 (exit status 255; not expected)
+2024-04-26 01:56:08,065 WARN exited: laravel_queue_03 (exit status 255; not expected)
+2024-04-26 01:56:08,068 WARN exited: laravel_schedule_00 (exit status 255; not expected)
+2024-04-26 01:56:11,077 INFO spawned: 'laravel_queue_00' with pid 22
+2024-04-26 01:56:11,082 INFO spawned: 'laravel_queue_01' with pid 23
+2024-04-26 01:56:11,089 INFO spawned: 'laravel_queue_02' with pid 24
+2024-04-26 01:56:11,095 INFO spawned: 'laravel_queue_03' with pid 25
+2024-04-26 01:56:11,098 INFO spawned: 'laravel_schedule_00' with pid 26
+2024-04-26 01:56:11,125 WARN exited: laravel_queue_00 (exit status 255; not expected)
+2024-04-26 01:56:11,127 WARN exited: laravel_queue_01 (exit status 255; not expected)
+2024-04-26 01:56:11,128 INFO gave up: laravel_queue_00 entered FATAL state, too many start retries too quickly
+2024-04-26 01:56:11,129 INFO gave up: laravel_queue_01 entered FATAL state, too many start retries too quickly
+2024-04-26 01:56:11,132 WARN exited: laravel_queue_02 (exit status 255; not expected)
+2024-04-26 01:56:11,134 INFO gave up: laravel_queue_02 entered FATAL state, too many start retries too quickly
+2024-04-26 01:56:11,135 WARN exited: laravel_queue_03 (exit status 255; not expected)
+2024-04-26 01:56:11,136 INFO gave up: laravel_queue_03 entered FATAL state, too many start retries too quickly
+2024-04-26 01:56:11,139 WARN exited: laravel_schedule_00 (exit status 255; not expected)
+2024-04-26 01:56:12,142 INFO gave up: laravel_schedule_00 entered FATAL state, too many start retries too quickly
