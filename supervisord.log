@@ -2330,3 +2330,4 @@
 2024-04-26 01:56:11,136 INFO gave up: laravel_queue_03 entered FATAL state, too many start retries too quickly
 2024-04-26 01:56:11,139 WARN exited: laravel_schedule_00 (exit status 255; not expected)
 2024-04-26 01:56:12,142 INFO gave up: laravel_schedule_00 entered FATAL state, too many start retries too quickly
+2024-04-26 06:26:36,212 WARN received SIGQUIT indicating exit request
