@@ -6,6 +6,10 @@ pipeline {
         }
     }
 
+    environment {
+        PATH = "/usr/local/bin:$PATH"  
+    }
+
     stages {
         stage('Clone') {
             steps {
@@ -30,7 +34,7 @@ pipeline {
         stage('Deploy to Server') {
             steps {
                 sshagent(['ssh-server']) {
-                    sh '''
+                    sh """
                     ssh -o StrictHostKeyChecking=no root@14.225.253.204 << EOF
                     cd /path/to/your/project || true
                     rm -rf /path/to/your/project || true
@@ -39,7 +43,7 @@ pipeline {
                     docker-compose up -d --build
                     docker-compose exec app php artisan migrate --force
                     EOF
-                    '''
+                    """
                 }
             }
         }
