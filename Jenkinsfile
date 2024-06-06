@@ -7,12 +7,12 @@ pipeline {
                 git 'https://github.com/tomosia-hieunguyen3/laravel_11.git'
             }
         }
-    }
 
-    stage('Start Services') {
-        steps {
-            script {
-                sh 'docker-compose up -d --build'
+        stage('Start Services') {
+            steps {
+                script {
+                    sh 'docker-compose up -d --build'
+                }
             }
         }
     }
