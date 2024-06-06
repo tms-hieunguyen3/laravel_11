@@ -11,7 +11,7 @@ pipeline {
         stage('Start Services') {
             steps {
                 script {
-                    sh 'docker-compose up -d --build'
+                    sh 'docker -v'
                 }
             }
         }
