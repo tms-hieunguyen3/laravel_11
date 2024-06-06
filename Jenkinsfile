@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    environment {
+        PATH = "/usr/local/bin:$PATH"  
+    }
+
     stages {
         stage('Clone') {
             steps {
@@ -8,10 +12,16 @@ pipeline {
             }
         }
 
+        stage('Check Docker Version') {
+            steps {
+                sh 'docker -v'
+            }
+        }
+
         stage('Start Services') {
             steps {
                 script {
-                    sh 'docker -v'
+                    sh 'docker-compose up -d --build'
                 }
             }
         }
