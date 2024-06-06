@@ -1,35 +1,9 @@
 pipeline {
-    agent any
-
     stages {
-
-
-        stage('Build Docker Images') {
+        stage('Clone') {
             steps {
-                script {
-                    // Build Nginx image
-                     sh 'docker-compose build php'
-                }
+                git 'https://github.com/tomosia-hieunguyen3/laravel_11.git'
             }
-        }
-
-        stage('Deploy') {
-            steps {
-                script {
-                    // Stop and remove existing containers
-                    sh 'docker-compose down'
-
-                    // Start the containers
-                    sh 'docker-compose up -d'
-                }
-            }
-        }
-    }
-
-    post {
-        always {
-            // Clean up
-            sh 'docker system prune -f'
         }
     }
 }
