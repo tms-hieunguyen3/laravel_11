@@ -1,7 +1,6 @@
 pipeline {
     agent {
         docker {
-            image 'php:8.2-fpm'
             args '-u root:root'
         }
     }
