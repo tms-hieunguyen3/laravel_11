@@ -1,9 +1,5 @@
 pipeline {
-    agent {
-        docker {
-            args '-u root:root'
-        }
-    }
+    agent any
 
     environment {
         PATH = "/usr/local/bin:$PATH"  
@@ -48,3 +44,4 @@ pipeline {
         }
     }
 }
+
