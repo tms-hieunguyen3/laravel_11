@@ -28,10 +28,8 @@ pipeline {
 
         stage('Deploy to Server') {
             steps {
-                sshagent(['ssh-remote']) {
-                    script {
-                        sh 'docker -v'
-                    }
+                sshagent(['ssh-vps']) {
+                    // some block
                 }
             }
         }
